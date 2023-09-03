@@ -1,4 +1,7 @@
-https://discord.gg/fMGUv97j
+**Recent Update**
+- Added Dice
+- Added Blackjack (Slightly Buggy)
+- Added Upgrader
 
 If you want to use this in your own server pls give me some credit
 
