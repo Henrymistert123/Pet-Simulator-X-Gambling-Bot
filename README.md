@@ -31,8 +31,10 @@ This is a gambling discord bot for the roblox game Pet Simulator X, it handles d
 
 ## Setup
 
+Step 0: Install Python  
+
 1. Download the code (obviously)
-2. Run requirements.bat, this will install all the required packages
+2. Run install.bat, this will install all the required packages
 3. Change everything in the config table to what the comments say to
 4. Run the python script, this will online the bot
 5. Execute the auto deposit and withdraw script while standing on the mailbox in psx
