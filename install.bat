@@ -1,0 +1,12 @@
+pip install datetime
+pip install string
+pip install discord
+pip install json
+pip install random
+pip install time
+pip install asyncio
+pip install threading
+pip install os
+pip install enum
+pip install requests
+pip install math
