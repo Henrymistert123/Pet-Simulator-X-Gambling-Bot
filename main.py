@@ -1501,13 +1501,6 @@ async def towers(interaction: discord.Interaction, bet: str) :
         await interaction.response.send_message(content=f"", view=TowersButtons(bet=bet, interaction=interaction))
 
 
-@bot.tree.command(name="set-crash-point", description="Override The Current Crashpoint")
-async def crashpoint(interaction: discord.Interaction, point: str) :
-    point = suffix_to_int(point)
-    if interaction.user.id == 757289489373593661 :
-        crash_info['crash_point'] = point
-
-
 class FlipButtons(discord.ui.View) :
     def __init__(self, msg, bet, side, user) :
         super().__init__(timeout=None)
