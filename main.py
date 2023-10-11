@@ -45,8 +45,8 @@ Config = {
     },
     "Rakeback" : 1, # Rakeback %
     "PathToExecutorWorkspace" : "C:/Users/henry/AppData/Local/Packages/ROBLOXCORPORATION.ROBLOX_55nm5eh3cm0pr/AC/workspace", # Path To Your Executors Workspace (for auto depos and withdraws)
-    "RobloxUser" : "fersord",  # Your roblox username, people will deposit to this account
-    "DiscordBotToken": "token" # The token of the discord bot
+    "RobloxUser" : "PsxProfitBot",  # Your roblox username, people will deposit to this account
+    "DiscordBotToken": "MTE0NjU4MDE2NzA1ODI2ODI0MQ.GOxY8K.mBU66eqJ9Rx8lkwTc3-1dRqQRNQD4f89pCVdk8" # The token of the discord bot
 }
 def multiplier_to_percentage(multiplier, house):
     percentage2 = (100 / multiplier) * house
@@ -312,7 +312,7 @@ class SystemRainButtons(discord.ui.View) :
                                                 ends=f"{self.ends}",
                                                 message=self.message,emoji=self.emoji))
 async def system_rain(amount, duration):
-    channel = bot.get_channel(int(Config['Rains']['Channel']))
+    channel = bot.get_channel(int(Config['Rains']['1147881368676741190']))
     rains.append([])
     rain = rains[-1]
     joined = 0
@@ -482,7 +482,7 @@ class JoinCrash(discord.ui.View) :
 
 async def crash_game() :
     while 1 :
-        channel = bot.get_channel(int(crashid))
+        channel = bot.get_channel(int(1147881035065987214))
         crash_info["crash_point"] = generate_crash_multi()
         await log(f"Crash Started: Crashpoint: {crash_info['crash_point']}")
         crash_info["players"] = []
