@@ -1,6 +1,6 @@
 **Recent Update**
 - Added Dice
-- Added Blackjack (Slightly Buggy)
+- ~~Added Blackjack~~ (Removed Because Of A Bug)  
 - Added Upgrader
 
 If you want to use this in your own server pls give me some credit
