@@ -1,3 +1,7 @@
+# Outdated  
+
+Use [The Pet Simulator 99](https://github.com/Henrymistert123/Pet-Simulator-99-Gambling-Bot/tree/main) one instead.
+
 **Recent Update**
 - Added Dice
 - ~~Added Blackjack~~ (Removed Because Of A Bug)  
